@@ -1,3 +1,5 @@
+
+```python
 import click
 import pandas as pd
 from sqlalchemy import create_engine
@@ -88,3 +90,26 @@ def run(
 
 if __name__ == "__main__":
     run()
+```
+## 1. Minimal (all defaults)
+```python
+python ingest.py
+```
+## 2. Custom database params
+```python
+python ingest.py \
+  --pg-user root \
+  --pg-password root \
+  --pg-host localhost \
+  --pg-port 5432 \
+  --pg-db ny_taxi
+```
+
+## 3.Different month / table / chunk size\
+```python
+python ingest.py \
+  --year 2021 \
+  --month 2 \
+  --target-table yellow_taxi_feb \
+  --chunksize 50000
+```
