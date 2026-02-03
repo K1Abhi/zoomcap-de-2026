@@ -27,7 +27,8 @@ Used backfill to load all the data for green taxi for the year 2020
 <img width="411" height="187" alt="image" src="https://github.com/user-attachments/assets/2b2f8269-a82d-4346-9950-c7daa87ebfb9" />
 
 ---
-**Question 5.** How many rows are there for the Yellow Taxi data for the March 2021 CSV file?
+**Question 5.** How many rows are there for the Yellow Taxi data for the March 2021 CSV file?      
+
 **Solution**: Similar to question 4   
 
 ---        
